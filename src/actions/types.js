@@ -1,0 +1,3 @@
+export const SUMMARY_REQUEST = "SUMMARY_REQUEST";
+export const SUMMARY_ERROR = "SUMMARY_ERROR";
+export const REMOVE_ERROR = "REMOVE_ERROR"

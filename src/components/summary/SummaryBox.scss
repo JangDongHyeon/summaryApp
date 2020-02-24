@@ -1,0 +1,114 @@
+@import '../../styles/utils.scss';
+
+.Button:hover {
+    background-color: $alicolor !important;
+}
+
+.talk_on:hover {
+    background-color: red !important;
+}
+
+.sned_on:hover {
+    background-color: red !important;
+}
+
+// .Textcontainer{
+//     //height: 70%;
+//     align-items: stretch;
+//     align-content: stretch;
+// }
+
+
+
+.TextBox {
+    display: flex;
+    //padding-top: 1px;
+    //padding-bottom: 1px;
+    font-size: 60px;
+    // line-height:100%;
+    //max-lines: 40;
+    //height: auto;
+
+    border-radius: 4px;
+    //resize: vertical;
+
+    max-lines: 40;
+
+    .textfield {
+        width: 100%;
+    }
+
+    &.input {
+        //height: 80hv;
+        width: 50%;
+        float: left;
+        background-color: $white; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
+
+    }
+
+    &.output {
+        width: 50%;
+        //height: 80vh;
+        float: right;
+        background-color: $white; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
+    }
+}
+
+.bodyconttainer {
+    width: 100%;
+}
+
+.ButtonContainer {
+    width: 100%;
+    display: flex;
+}
+
+.footerContainer {
+    width: 50%;
+}
+
+.Button {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+
+    &.send {
+        background-color: $alicolor; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
+
+    }
+
+    &.sendon {
+        background-color: $red; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
+
+    }
+
+
+
+    &.talk_checkon {
+        background-color: $red; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
+
+    }
+
+
+
+    &.talk_checkoff {
+        background-color: $alicolor; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
+
+    }
+
+    &.upload {
+        background-color: $alicolor; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
+
+    }
+
+    &.delete {
+        background-color: $alicolor; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
+
+    }
+
+
+
+}
